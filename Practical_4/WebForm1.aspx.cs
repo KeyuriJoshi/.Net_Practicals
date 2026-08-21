@@ -23,7 +23,7 @@ namespace Practical_4
                     {
                         if (events != "")
                         {
-                            events += ", ";
+                            events += " , ";
                         }
 
                         events += item.Text;
