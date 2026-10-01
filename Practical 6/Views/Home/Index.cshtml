@@ -1,0 +1,73 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<section class="hero">
+
+    <div class="container">
+
+        <div class="hero-content">
+
+            <p class="subtitle">
+                ASP.NET CORE MVC APPLICATION
+            </p>
+
+            <h1>
+                Product Catalog
+            </h1>
+
+            <p>
+                Explore our collection of products through a
+                simple and professional catalog application
+                built using ASP.NET Core MVC.
+            </p>
+
+            <a asp-controller="Product"
+               asp-action="Index"
+               class="btn-primary">
+                View Products
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="info-section">
+
+    <div class="container">
+
+        <h2>Application Features</h2>
+
+        <div class="feature-grid">
+
+            <div class="feature-card">
+                <h3>MVC Architecture</h3>
+                <p>
+                    Separates the application into Models,
+                    Views and Controllers.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <h3>Product Catalog</h3>
+                <p>
+                    Displays products with category,
+                    price and description.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <h3>Routing</h3>
+                <p>
+                    Uses ASP.NET Core MVC routing to navigate
+                    between application pages.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>

@@ -1,0 +1,71 @@
+﻿@model Product
+
+@{
+    ViewData["Title"] = "Product Details";
+}
+
+<div class="container page-container">
+
+    <div class="details-card">
+
+        <div class="details-label">
+            PRODUCT DETAILS
+        </div>
+
+        <h1>@Model.Name</h1>
+
+        <div class="details-row">
+
+            <span class="details-title">
+                Product ID
+            </span>
+
+            <span>
+                @Model.Id
+            </span>
+
+        </div>
+
+        <div class="details-row">
+
+            <span class="details-title">
+                Category
+            </span>
+
+            <span>
+                @Model.Category
+            </span>
+
+        </div>
+
+        <div class="details-row">
+
+            <span class="details-title">
+                Price
+            </span>
+
+            <span class="details-price">
+                ₹@Model.Price.ToString("N0")
+            </span>
+
+        </div>
+
+        <div class="description-box">
+
+            <h3>Description</h3>
+
+            <p>
+                @Model.Description
+            </p>
+
+        </div>
+
+        <a asp-controller="Product"
+           asp-action="Index"
+           class="btn-secondary">
+            ← Back to Products
+        </a>
+
+    </div>
+
+</div>
