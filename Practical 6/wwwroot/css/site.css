@@ -13,7 +13,6 @@ body {
     color: #263238;
 }
 
-/* ================= NAVBAR / FIXED HEADER ================= */
 
 .navbar {
     background-color: #172b4d;
@@ -63,17 +62,12 @@ body {
             color: #ffffff;
         }
 
-/* ================= MAIN CONTENT ================= */
-
 .main-content {
     min-height: 100vh;
-    /* Space for fixed header */
     padding-top: 70px;
-    /* Space for fixed footer */
     padding-bottom: 65px;
 }
 
-/* ================= HERO ================= */
 
 .hero {
     background: linear-gradient( 135deg, #172b4d, #29476b );
@@ -103,7 +97,6 @@ body {
     color: #e1e8f0;
 }
 
-/* ================= BUTTONS ================= */
 
 .btn-primary,
 .btn-secondary {
@@ -133,8 +126,6 @@ body {
     .btn-secondary:hover {
         background-color: #29476b;
     }
-
-/* ================= INFO SECTION ================= */
 
 .info-section {
     padding: 60px 0;
@@ -169,8 +160,6 @@ body {
         color: #68727d;
     }
 
-/* ================= PAGE ================= */
-
 .page-container {
     padding-top: 45px;
     padding-bottom: 60px;
@@ -188,8 +177,6 @@ body {
     .page-header p {
         color: #697586;
     }
-
-/* ================= PRODUCT GRID ================= */
 
 .product-grid {
     display: grid;
@@ -253,8 +240,6 @@ body {
     font-weight: 700;
 }
 
-/* ================= PRODUCT DETAILS ================= */
-
 .details-card {
     max-width: 750px;
     margin: 20px auto;
@@ -308,8 +293,6 @@ body {
         margin-top: 0;
     }
 
-/* ================= PRIVACY ================= */
-
 .content-card {
     background-color: white;
     padding: 30px;
@@ -317,8 +300,6 @@ body {
     border: 1px solid #dce1e7;
     line-height: 1.7;
 }
-
-/* ================= FIXED FOOTER ================= */
 
 .footer {
     background-color: #172b4d;
@@ -337,8 +318,6 @@ body {
         margin: 0;
         line-height: 25px;
     }
-
-/* ================= RESPONSIVE ================= */
 
 @media (max-width: 800px) {
 
